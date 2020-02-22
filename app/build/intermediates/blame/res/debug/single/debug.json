@@ -156,6 +156,10 @@
         "source": "C:\\Users\\jenis\\.gradle\\caches\\transforms-2\\files-2.1\\5d52d9573d8a8f70a8462cc8f8a42ce9\\material-1.1.0\\res\\layout\\mtrl_picker_header_selection_text.xml"
     },
     {
+        "merged": "D:\\GIH_2020\\Github_testing\\chemist\\Cemist\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_warning_black_24dp.xml.flat",
+        "source": "D:\\GIH_2020\\Github_testing\\chemist\\Cemist\\app\\src\\main\\res\\drawable\\ic_warning_black_24dp.xml"
+    },
+    {
         "merged": "D:\\GIH_2020\\Github_testing\\chemist\\Cemist\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_dark.xml.flat",
         "source": "C:\\Users\\jenis\\.gradle\\caches\\transforms-2\\files-2.1\\6119d746697059b7e1b74aab4d181f56\\appcompat-1.1.0\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },

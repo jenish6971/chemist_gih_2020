@@ -1462,6 +1462,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_person_black_24dp
 drawable ic_qr_code
+drawable ic_warning_black_24dp
 drawable light_blue_circle
 drawable light_gray_bg_profile
 drawable light_green_circle
