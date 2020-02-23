@@ -5,6 +5,7 @@ import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -21,6 +22,9 @@ public class patient extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_patient);
+
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
+
         //cardlist=new ArrayList<>();
         recyclerView =findViewById(R.id.patient_recycler);
         recyclerView.setHasFixedSize(true);

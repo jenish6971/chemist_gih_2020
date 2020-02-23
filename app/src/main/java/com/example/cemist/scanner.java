@@ -1,6 +1,7 @@
 package com.example.cemist;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.media.AudioManager;
 import android.media.ToneGenerator;
@@ -33,6 +34,8 @@ public class scanner extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scanner);
+
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
        // textView=findViewById(R.id.data_text);
 
