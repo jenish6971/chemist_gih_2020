@@ -1651,6 +1651,7 @@ id icon
 id icon_group
 id ifRoom
 id image
+id imageView
 id imageView2
 id image_user
 id info
@@ -1917,6 +1918,7 @@ layout abc_tooltip
 layout activity_main
 layout activity_patient
 layout activity_scanner
+layout activity_splash
 layout app_bar_main
 layout card
 layout chemist_card
