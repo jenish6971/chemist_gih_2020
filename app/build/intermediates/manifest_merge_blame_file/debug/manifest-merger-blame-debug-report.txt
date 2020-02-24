@@ -57,81 +57,84 @@
 33-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:43:9-33
 34
 35    <application
-35-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:8:5-30:19
+35-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:8:5-33:19
 36        android:allowBackup="true"
 36-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:9:9-35
 37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 37-->[androidx.core:core:1.1.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
 38        android:debuggable="true"
-39        android:icon="@drawable/cemist_app_logo"
-39-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:10:9-49
+39        android:icon="@drawable/chemist_logo"
+39-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:10:9-46
 40        android:label="@string/app_name"
 40-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:11:9-41
-41        android:roundIcon="@drawable/cemist_app_logo"
-41-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:12:9-54
+41        android:roundIcon="@drawable/chemist_logo"
+41-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:12:9-51
 42        android:supportsRtl="true"
 42-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:13:9-35
-43        android:theme="@style/AppTheme" >
-43-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:14:9-40
-44        <activity android:name="com.example.cemist.register" />
-44-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:15:9-55
-44-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:15:19-43
-45        <activity android:name="com.example.cemist.login" />
-45-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:16:9-43
-45-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:16:19-40
-46        <activity android:name="com.example.cemist.splash" >
-46-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:17:9-23:20
-46-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:17:19-41
-47            <intent-filter>
-47-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:18:13-22:29
-48                <action android:name="android.intent.action.MAIN" />
-48-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:19:17-69
-48-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:19:25-66
-49
-50                <category android:name="android.intent.category.LAUNCHER" />
-50-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:21:17-77
-50-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:21:27-74
-51            </intent-filter>
-52        </activity>
-53        <activity android:name="com.example.cemist.patient" />
-53-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:24:9-45
-53-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:24:19-42
-54        <activity
-54-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:25:9-28:59
-55            android:name="com.example.cemist.MainActivity"
-55-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:26:13-41
-56            android:label="@string/app_name"
-56-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:27:13-45
-57            android:theme="@style/AppTheme.NoActionBar" />
-57-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:28:13-56
-58        <activity android:name="com.example.cemist.scanner" />
-58-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:29:9-45
-58-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:29:19-42
-59        <activity
-59-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:46:9-52:63
-60            android:name="com.journeyapps.barcodescanner.CaptureActivity"
-60-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74
-61            android:clearTaskOnLaunch="true"
-61-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:48:13-45
-62            android:screenOrientation="sensorLandscape"
-62-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:49:13-56
-63            android:stateNotNeeded="true"
-63-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:50:13-42
-64            android:theme="@style/zxing_CaptureTheme"
-64-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
-65            android:windowSoftInputMode="stateAlwaysHidden" />
-65-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:52:13-60
-66
-67        <provider
-67-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-68            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-68-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-69            android:authorities="com.example.cemist.lifecycle-process"
-69-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-70            android:exported="false"
-70-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-71            android:multiprocess="true" />
-71-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-72    </application>
-73
-74</manifest>
+43        android:testOnly="true"
+44        android:theme="@style/AppTheme"
+44-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:14:9-40
+45        android:usesCleartextTraffic="true" >
+45-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:15:9-44
+46        <activity android:name="com.example.cemist.register" />
+46-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:18:9-55
+46-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:18:19-43
+47        <activity android:name="com.example.cemist.login" />
+47-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:19:9-43
+47-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:19:19-40
+48        <activity android:name="com.example.cemist.splash" >
+48-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:20:9-26:20
+48-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:20:19-41
+49            <intent-filter>
+49-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:21:13-25:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:22:17-69
+50-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:22:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:24:17-77
+52-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:24:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity android:name="com.example.cemist.patient" />
+55-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:27:9-45
+55-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:27:19-42
+56        <activity
+56-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:28:9-31:59
+57            android:name="com.example.cemist.MainActivity"
+57-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:29:13-41
+58            android:label="@string/app_name"
+58-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:30:13-45
+59            android:theme="@style/AppTheme.NoActionBar" />
+59-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:31:13-56
+60        <activity android:name="com.example.cemist.scanner" />
+60-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:32:9-45
+60-->D:\GIH_2020\Github_testing\chemist\Cemist\app\src\main\AndroidManifest.xml:32:19-42
+61        <activity
+61-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:46:9-52:63
+62            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+62-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:47:13-74
+63            android:clearTaskOnLaunch="true"
+63-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:48:13-45
+64            android:screenOrientation="sensorLandscape"
+64-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:49:13-56
+65            android:stateNotNeeded="true"
+65-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:50:13-42
+66            android:theme="@style/zxing_CaptureTheme"
+66-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:51:13-54
+67            android:windowSoftInputMode="stateAlwaysHidden" />
+67-->[com.journeyapps:zxing-android-embedded:3.2.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\c9241d0897366c77fc80eaa1c025355e\jetified-zxing-android-embedded-3.2.0\AndroidManifest.xml:52:13-60
+68
+69        <provider
+69-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+70            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+70-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+71            android:authorities="com.example.cemist.lifecycle-process"
+71-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+72            android:exported="false"
+72-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+73            android:multiprocess="true" />
+73-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\jenis\.gradle\caches\transforms-2\files-2.1\6fbf654d3db04d7d9e48eb73ccf59f45\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+74    </application>
+75
+76</manifest>

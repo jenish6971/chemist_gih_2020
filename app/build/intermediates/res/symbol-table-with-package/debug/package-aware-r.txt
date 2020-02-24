@@ -1431,6 +1431,7 @@ drawable btn_radio_on_to_off_mtrl_animation
 drawable bug_blue
 drawable bug_yellow
 drawable cemist_app_logo
+drawable chemist_logo
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1439,6 +1440,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable gray_circle
 drawable ic_account_circle_black_24dp
+drawable ic_arrow_forward_black_24dp
 drawable ic_calendar_black_24dp
 drawable ic_clear_black_24dp
 drawable ic_code_scanner_auto_focus_off
@@ -1450,6 +1452,7 @@ drawable ic_edit_black_24dp
 drawable ic_home_black_24dp
 drawable ic_keyboard_arrow_left_black_24dp
 drawable ic_keyboard_arrow_right_black_24dp
+drawable ic_keyboard_backspace_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_man
@@ -1462,6 +1465,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_person_black_24dp
 drawable ic_qr_code
+drawable ic_send_black_24dp
 drawable ic_warning_black_24dp
 drawable light_blue_circle
 drawable light_gray_bg_profile
@@ -1478,6 +1482,7 @@ drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
 drawable navigation_empty_icon
+drawable next_btn_background
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1492,6 +1497,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable side_nav_bar
 drawable test_custom_background
+drawable textbox_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable user_profile_photo
@@ -1587,6 +1593,7 @@ id center_vertical
 id chains
 id checkbox
 id checked
+id chemist_id_edittext
 id chip
 id chip_group
 id chronometer
@@ -1638,6 +1645,7 @@ id fitToContents
 id fitXY
 id fixed
 id forever
+id forgot_pass_txt
 id gender_ll
 id ghost_view
 id ghost_view_holder
@@ -1669,6 +1677,7 @@ id line3
 id linearLayout
 id listMode
 id list_item
+id login_txt
 id masked
 id media_actions
 id message
@@ -1709,6 +1718,7 @@ id nav_qr_code
 id nav_view
 id navigation_header_container
 id never
+id next_btn
 id noScroll
 id none
 id normal
@@ -1723,6 +1733,7 @@ id parallax
 id parent
 id parentPanel
 id parent_matrix
+id pass_edittext
 id password_toggle
 id patient_recycler
 id peekHeight
@@ -1764,6 +1775,8 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signup_back_btn
+id signup_txt
 id skipCollapsed
 id slide
 id smallLabel
@@ -1841,6 +1854,7 @@ id up
 id useLogo
 id view_offset_helper
 id visible
+id web_view
 id withText
 id wrap
 id wrap_content
@@ -1915,8 +1929,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
 layout activity_patient
+layout activity_register
 layout activity_scanner
 layout activity_splash
 layout app_bar_main

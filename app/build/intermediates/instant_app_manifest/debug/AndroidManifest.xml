@@ -37,11 +37,13 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
-        android:icon="@drawable/cemist_app_logo"
+        android:icon="@drawable/chemist_logo"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/cemist_app_logo"
+        android:roundIcon="@drawable/chemist_logo"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:testOnly="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true" >
         <activity android:name="com.example.cemist.register" />
         <activity android:name="com.example.cemist.login" />
         <activity android:name="com.example.cemist.splash" >
