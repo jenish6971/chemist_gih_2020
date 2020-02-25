@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -31,7 +32,8 @@ public class login extends AppCompatActivity {
         signup_txt_java.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(login.this, register.class));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.eupload.ml/smart_card/contact.php"));
+                startActivity(browserIntent);
                 finish();
             }
         });

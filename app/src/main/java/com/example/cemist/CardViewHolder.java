@@ -20,9 +20,6 @@ public class CardViewHolder extends RecyclerView.ViewHolder {
         this.dr_name=itemView.findViewById(R.id.text_dr_name);
 
 
-
-
-
     }
 }
 
